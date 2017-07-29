@@ -27,6 +27,7 @@ public class LoginController extends HttpServlet {
 
 	public void setUserService(UserServiceInt userService) {
 		this.userService = userService;
+		
 	}
 
 	public void doGet(HttpServletRequest request,
