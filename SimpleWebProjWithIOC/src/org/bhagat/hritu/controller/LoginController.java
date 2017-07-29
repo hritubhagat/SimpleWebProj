@@ -44,6 +44,8 @@ public class LoginController extends HttpServlet {
 		 */
 		System.out.println("This is login controller");
 		System.out.println("this is second line being added");
+		
+		
 		RequestDispatcher rd = null;
 		HttpSession session = null;
 		try {
