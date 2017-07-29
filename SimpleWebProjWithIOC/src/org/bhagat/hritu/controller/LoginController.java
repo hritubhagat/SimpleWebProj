@@ -43,6 +43,7 @@ public class LoginController extends HttpServlet {
 		 * (UserServiceInt)ctx.getBean("userService");
 		 */
 		System.out.println("This is login controller");
+		System.out.println("this is second line being added");
 		RequestDispatcher rd = null;
 		HttpSession session = null;
 		try {
