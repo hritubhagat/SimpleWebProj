@@ -42,7 +42,7 @@ public class LoginController extends HttpServlet {
 		 * (getServletContext()); userService =
 		 * (UserServiceInt)ctx.getBean("userService");
 		 */
-
+		System.out.println("This is login controller");
 		RequestDispatcher rd = null;
 		HttpSession session = null;
 		try {
