@@ -14,6 +14,7 @@ import org.bhagat.hritu.service.UserServiceInt;
 
 /**
  * Servlet implementation class LoginController
+ * @author Hritu Bhagat
  */
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
