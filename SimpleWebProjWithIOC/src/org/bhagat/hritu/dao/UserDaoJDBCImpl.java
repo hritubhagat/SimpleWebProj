@@ -29,13 +29,18 @@ public class UserDaoJDBCImpl implements UserDaoInt {
 		connection.close();
 		return foundDto;
 	}
-
+                 
     public UserDTO findByPK(UserDTO dto) throws Exception {
 
     	return null;
     }
 
 	public void update(UserDTO dto) throws Exception {
+		
+	}
+
+	public void add(UserDTO dto) throws Exception {
+		// TODO Auto-generated method stub
 		
 	}
 
