@@ -39,4 +39,8 @@ public class UserDaoJDBCImpl implements UserDaoInt {
 		
 	}
 
+    public void delete(UserDTO dto) throws Exception {
+        // TODO Auto-generated method stub
+        
+    }
 }
