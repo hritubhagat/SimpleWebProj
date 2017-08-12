@@ -3,6 +3,7 @@ package org.bhagat.hritu.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.List;
 
 import org.bhagat.hritu.dto.UserDTO;
 import org.bhagat.hritu.util.JdbcDataSource;
@@ -31,6 +32,14 @@ public class UserDaoJDBCImpl implements UserDaoInt {
 	}
 
     public UserDTO findByPK(UserDTO dto) throws Exception {
+        // TODO Auto-generated method stub
+        return null;
+    }
+    
+    /**
+     * This method return list of all users
+     */
+    public List list(UserDTO dto) throws Exception {
         // TODO Auto-generated method stub
         return null;
     }
