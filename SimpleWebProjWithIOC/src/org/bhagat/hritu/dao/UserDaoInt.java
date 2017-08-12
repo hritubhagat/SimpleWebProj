@@ -7,4 +7,5 @@ public interface UserDaoInt {
 	public UserDTO findByPK(UserDTO dto) throws Exception;
 	public void add(UserDTO dto) throws Exception;
 	public void delete(UserDTO dto) throws Exception;
+	
 }
