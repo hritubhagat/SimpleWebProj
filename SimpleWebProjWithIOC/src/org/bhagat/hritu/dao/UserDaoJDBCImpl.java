@@ -30,4 +30,9 @@ public class UserDaoJDBCImpl implements UserDaoInt {
 		return foundDto;
 	}
 
+    public UserDTO findByPK(UserDTO dto) throws Exception {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
 }
