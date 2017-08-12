@@ -31,8 +31,12 @@ public class UserDaoJDBCImpl implements UserDaoInt {
 	}
 
     public UserDTO findByPK(UserDTO dto) throws Exception {
-        // TODO Auto-generated method stub
-        return null;
+
+    	return null;
     }
+
+	public void update(UserDTO dto) throws Exception {
+		
+	}
 
 }
